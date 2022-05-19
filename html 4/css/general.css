@@ -13,6 +13,7 @@ body {
     top: 0px;
     background-color: rgb(44,44,44);
     height: 90px;
+    z-index: 8;
 }
 .footer{
     background-color: rgb(44,44,44);
@@ -134,6 +135,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     
+    
 }
 .intro button b {
     text-align: center;
@@ -172,3 +174,21 @@ body {
     background-color: rgb(143, 143, 143);
 }
 
+a{
+    text-decoration: none;
+}
+
+.carrusel{
+    position: relative;
+    top: 200px;
+}
+
+.carrusel img{
+    float: left;
+}
+.carrusel #pTexto{
+    
+    margin-left: 40%;
+    margin-right: 20%;
+
+}
