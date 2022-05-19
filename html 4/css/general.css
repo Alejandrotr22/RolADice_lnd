@@ -14,6 +14,21 @@ body {
     background-color: rgb(44,44,44);
     height: 90px;
 }
+.footer{
+    background-color: rgb(44,44,44);
+    height: 80px;
+}
+.footer .logo{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.footer .titulo{
+    font-size: medium;
+}
+
 .content{
     height: 5000px;
 }
@@ -64,12 +79,96 @@ body {
     top : 30px;
     border-color: transparent;
     margin-left: 20px;
+    transition-duration: 0.1s;
 }
 .boton:hover{
-    
+    transition-duration: 0.05s;
     background-color: rgb(80, 80, 80);
 }
 .boton:active{
-    
+    transition-duration: 0.1s;
     background-color: rgb(143, 143, 143);
 }
+.drop{
+    position: relative;
+    
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.menuContenido {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    
+}
+.drop:hover .menuContenido {
+    display: block;
+}
+.menuContenido a {
+    display: block;
+    color: white;
+    padding: 5px;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    
+}
+
+.intro img {
+    padding: 20px;
+}
+.intro button{
+    margin: 40px;
+    border-width: 20%;
+}
+.intro .texto{
+    
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.intro button b {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#btnIniciar {
+
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+    text-decoration: none;
+    
+}
+
+
+#btnIniciar:hover{
+    transition-duration: 0.05s;
+    background-color: rgb(80, 80, 80);
+}
+#btnIniciar:active{
+    transition-duration: 0.1s;
+    background-color: rgb(143, 143, 143);
+}
+
