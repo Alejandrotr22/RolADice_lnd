@@ -2,13 +2,13 @@ body {
     background-color: rgb(44, 44, 44);
     color :rgb(255, 255, 255);
 }
-.header, .content, .footer ,.Suscripcion{
+header, section, footer ,.Suscripcion{
     border-style: solid;
     border-width: medium;
     border-color: rgb(100, 100, 100);
     margin-top: -2px;
 }
-.header{
+header{
     position: sticky;
     top: 0px;
     background-color: rgb(44,44,44);
@@ -16,26 +16,26 @@ body {
     z-index: 8;
 }
 
-.header .titulo a{
+header .titulo a{
     text-decoration: none;
     color: white;
 }
-.footer{
+footer{
     background-color: rgb(44,44,44);
     height: 80px;
 }
-.footer .logo{
+footer .logo{
     margin-top: 10px;
     width: 60px;
     height: 60px;
     border-radius: 8px;
 }
 
-.footer .titulo{
+footer .titulo{
     font-size: medium;
 }
 
-.content{
+section{
     padding-bottom: 40%;
 }
 .logo{
@@ -125,10 +125,10 @@ body {
     background-color: rgb(50,50,50);
     text-decoration: none;
 }
-
 .menuContenido a:hover {
-    color: green;
+    color: rgb(172, 172, 172);
 }
+
 
 .intro {
     text-align: center;
@@ -211,8 +211,6 @@ a{
     margin-right: 10%;
     padding-top: 10%;
     padding-bottom: 10%;
-
-
 }
 
 .Manuales{
@@ -238,30 +236,31 @@ a{
 
 }
 
-.Suscripcion{
+#Suscripcion{
     font-size: 200%;
     text-align: center;
+    padding-bottom: 0%;
     
 }
-.Suscripcion .sTexto{
+#Suscripcion .sTexto{
     font-size: 20px;
     text-align: center;
     
 }
 
-.Suscripcion .form{
+#Suscripcion form{
     margin-top: 2%;
     margin-bottom: 5%;
 }
 
-.Suscripcion .form .email{
+#Suscripcion form .email{
     width: 30%;
     background-color: transparent;
     font-size: 20px;
     color: white;
     border: none;
 }
-.Suscripcion .form .botonform{
+#Suscripcion form .botonform{
     background-color: transparent;
     border-style: solid;
     border-color: rgb(100, 100, 100);
@@ -270,12 +269,12 @@ a{
     font-size: large;
 }
 
-.Suscripcion .form .botonform:hover{
+.Suscripcion form .botonform:hover{
     transition-duration: 0.05s;
     background-color: rgb(80, 80, 80);
 }
 
-.Suscripcion .form .botonform:active{
+#Suscripcion form .botonform:active{
     transition-duration: 0.1s;
     background-color: rgb(143, 143, 143);
 }
@@ -291,4 +290,188 @@ a{
     padding-top: 25px;
     margin-right: 25px;
 }
+
+.dropbotones{
+    position: relative;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.menuContenido2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    
+}
+.dropbotones:hover .menuContenido2 {
+    display: block;
+}
+.menuContenido2 a {
+    display: block;
+    color: white;
+    padding: 5px;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
+}
+.menuContenido2 a:hover {
+    color: rgb(172, 172, 172);
+}
+
+
+.botonmas{
+    background-color: transparent;
+    border-style: none;
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+    
+
+}
+
+@media screen and (min-width:400px) {
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }
+    .boton{
+        display: none;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: none;
+    }
+
+    header{
+        height: 90px;
+    }
+
+}
+
+@media screen and (min-width:200px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }
+    section{
+        padding-bottom: 55%;
+    }
+    .boton{
+        display: none;
+    }
+    .dropbotones{
+        display: inline;
+    }
+    .botonmas{
+        width: 10em;
+    }
+    .botones{
+        float: right;
+    }
+
+    #membresia , #titulo{
+        display: none;
+    }
+
+    
+    header{
+        height: 90px;
+    }
+
+}
+
+@media screen and (min-width:660px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }botones{
+        display: none;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    header{
+        height: 90px;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }botones{
+        display: none;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    header{
+        height: 90px;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1280px) {
+
+    p{
+        font-size: 2em;
+    }
+    .titulo2{
+        font-size: 3em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    #titulo{
+        float: none;
+    }
+    header{
+        height: 90px;
+    }
+    
+}
+
+
+
+
+
+
 

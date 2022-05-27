@@ -1,15 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" type="text/css" media="screen" href="css/general.css">
         <title>Principal</title>
     </head>
     <body>
-        <div class="header">
-            <img class="logo" width="80px" src="/home/alejandro/Git/RolADice_lnd/imagenes/Icono RAD.png"/>
-            <button class="titulo" type="button"><b><a href="principal.html">RoleADice</a></b></button>
+        <header>
+            <img class="logo" width="80px" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/Icono RAD.png"/>
+            <button class="titulo" id="titulo" type="button"><b><a href="principal.html">RoleADice</a></b></button>
             <button class="titulo" id="membresia" type="button"><a href="Membresia.html">Membresía</a></button>
             <div class="botones">
                 <a class="boton" href="Registarse.html" >Registrarse</a>
@@ -21,12 +21,20 @@
                         <a href="principal.html">Ru</a>
                     </div>
                 </div>
-            </div>
+                <div class="dropbotones">
+                    <button class="botonmas" type="button"><img width="10%" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/3puntos.png" alt=""></button>
+                    <div class="menuContenido2">
+                        <a class="boton" href="principal.html" >RoleADice</a>
+                        <a class="boton" href="Membresia.html">Membresia</a>
+                        <a class="boton" href="Registarse.html" >Registrarse</a>
+                        <a class="boton" href="IniciarSesion.html">Iniciar Sesión</a>
+                    </div>    
+                </div>
+        </header>
+        <section class="">
             
-        </div>
-        <div class="content">
             <div class="intro">
-                <img width="60%" src="/home/alejandro/Git/RolADice_lnd/imagenes/Icono RAD SBB.png" >
+                <img width="60%" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/Icono RAD SBB.png" >
                 <br>
                 <div><span><b class="texto">Para los más roleros, una herramienta para tirar tus dados, generarlos y consultar los manuales que necesites.</b></span></div>
                 <br>
@@ -35,12 +43,12 @@
             </div>
 
             <div class="carrusel">
-                <div class="titulo"><b>Dados</b></div>
+                <div class="titulo2"><b>Dados</b></div>
                 <div>
                     
                     <div class="Dados">
                         <div>
-                            <img width="30%" src="/home/alejandro/Git/RolADice_lnd/imagenes/dados.png">
+                            <img width="30%" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/dados.png">
                         </div>
                         <div>
                             <p class="pTexto">Selecciona y tira los dados que necesites en cualquier partida de rol, y si necesitas uno nuevo,¡Créalo!</p>
@@ -52,12 +60,12 @@
             <br>
 
             <div class="Manuales">
-                <div class="titulo"><b>Manuales</b></div>
+                <div class="titulo2"><b>Manuales</b></div>
                 <div>
                     
                     <div class="Dados">
                         <div>
-                            <img width="35%" src="/home/alejandro/Git/RolADice_lnd/imagenes/Manual.png">
+                            <img width="35%" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/Manual.png">
                         </div>
                         <div>
                             <p class="pTexto">Consulta los manuales que necesites: Para empezar la aventura, recordar las mecánicas de tu clase o busca formas de entretenerte </p>
@@ -68,9 +76,9 @@
             </div>
 
             
-        </div>
+        </section>
 
-        <div class="Suscripcion">
+        <section id="Suscripcion">
             <div><p class="suscribete">Suscríbete</p></div>
             <div><p class="sTexto">Para más información sobre las actualizaciones y dudas, suscribete a nuestro news paper</p></div>
             <div class="form">
@@ -81,15 +89,15 @@
             </div>
 
             
-        </div>
+        </section>
 
 
-        <div class="footer">
-            <img class="logo" width="80px" src="/home/alejandro/Git/RolADice_lnd/imagenes/Icono RAD CB.png/"/>
+        <footer>
+            <img class="logo" width="80px" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/Icono RAD CB.png/"/>
             <a class="titulo" id="contacta" href="Contacta.html">Contáctanos</a>
             <a class="titulo" id="membresia" href="Membresia.html">Membresía</a>
-            <a href="https://twitter.com" target="_blank"><img class="twitter" width="30px" src="/home/alejandro/Git/RolADice_lnd/imagenes/twitter.png" >    </a>
-            <a href="https://www.instagram.com/" target="_blank"><img class="insta" width="30px" src="/home/alejandro/Git/RolADice_lnd/imagenes/instagram.png">  </a>
-        </div>
+            <a href="https://twitter.com" target="_blank"><img class="twitter" width="30px" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/twitter.png" >    </a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="insta" width="30px" src="/home/alejandro/Git/RolADice_lnd/html 5/css/imagenes/instagram.png">  </a>
+        </footer>
     </body>
 </html>
