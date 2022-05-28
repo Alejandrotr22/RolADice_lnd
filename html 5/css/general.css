@@ -396,8 +396,9 @@ a{
     }
     .titulo2{
         font-size: 2em;
-    }botones{
-        display: none;
+    }
+    .botones{
+        display: inline;
     }
     .boton{
         display: inline;
@@ -421,8 +422,9 @@ a{
     }
     .titulo2{
         font-size: 2em;
-    }botones{
-        display: none;
+    }
+    .botones{
+        display: inline;
     }
     .boton{
         display: inline;

@@ -269,3 +269,217 @@ a{
 .botonManual{
     margin-bottom: 400px;
 }
+
+.dropbotones{
+    position: relative;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.menuContenido2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    
+}
+.dropbotones:hover .menuContenido2 {
+    display: block;
+}
+.menuContenido2 a {
+    display: block;
+    color: white;
+    padding: 5px;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
+}
+.menuContenido2 a:hover {
+    color: rgb(172, 172, 172);
+}
+
+
+.botonmas{
+    background-color: transparent;
+    border-style: none;
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+    
+
+}
+
+.botond{
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    color:white;
+    border-radius: 5px;
+    font-size: large;
+    margin-left: 2px;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-width: 2px ;
+}
+
+
+@media screen and (min-width:400px) {
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }
+    .boton{
+        display: none;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: none;
+    }
+
+    header{
+        height: 90px;
+    }
+
+}
+
+@media screen and (min-width:200px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }
+    section{
+        padding-bottom: 55%;
+    }
+    .boton{
+        display: none;
+    }
+    .dropbotones{
+        display: inline;
+    }
+    .botonmas{
+        width: 10em;
+    }
+    .botones{
+        float: right;
+    }
+
+    #membresia , #titulo{
+        display: none;
+    }
+
+    
+    header{
+        height: 90px;
+    }
+    
+    .resultado{
+        border-style: solid;
+        border-width: medium;
+        border-color: rgb(100, 100, 100);
+        float: none;
+        display: block;
+        height: 120% ;
+        border-radius: 20px;
+        width: 94%;
+        position: relative;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+        
+    }
+    table {
+        margin-top: 5%;
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (min-width:660px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }botones{
+        display: none;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    header{
+        height: 90px;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+
+    p{
+        font-size: 1em;
+    }
+    .titulo2{
+        font-size: 2em;
+    }botones{
+        display: none;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    header{
+        height: 90px;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1280px) {
+
+    p{
+        font-size: 2em;
+    }
+    .titulo2{
+        font-size: 3em;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    .boton{
+        display: inline;
+    }
+    .dropbotones{
+        display: none;
+    }
+    #membresia , #titulo{
+        display: inline;
+    }
+    #titulo{
+        float: none;
+    }
+    header{
+        height: 90px;
+    }
+    
+}
